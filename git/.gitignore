@@ -1,0 +1,14 @@
+# Ignore Emacs backup files
+*~
+# Ignore Emacs auto-save files
+# (usually start with # and end with #)
+# Ignore files with names like #file#
+# Ignore all auto-save files
+ #*
+# Ignore the .emacs.d directory
+.emacs.d/
+# Ignore the .elc files (compiled Emacs Lisp files)
+*.elc
+# Ignore the .lock files
+*.lock
+
